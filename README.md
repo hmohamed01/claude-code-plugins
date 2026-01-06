@@ -16,7 +16,11 @@ Add this plugin marketplace to Claude Code:
 claude plugin marketplace add hmohamed01/claude-code-plugins
 ```
 
-Then browse and install plugins from the marketplace.
+Then install a plugin:
+
+```bash
+claude plugin install swift-developer@hmohamed-plugins
+```
 
 ## Structure
 

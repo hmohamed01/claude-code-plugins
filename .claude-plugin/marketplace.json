@@ -1,0 +1,18 @@
+{
+  "name": "hmohamed-plugins",
+  "owner": {
+    "name": "hmohamed01"
+  },
+  "metadata": {
+    "description": "A collection of Claude Code plugins for Swift development and more"
+  },
+  "plugins": [
+    {
+      "name": "swift-developer",
+      "source": "./swift-developer",
+      "description": "Autonomous Swift development agent for iOS/macOS apps, Swift packages, SwiftUI, and Swift 6 concurrency",
+      "version": "0.1.0",
+      "keywords": ["swift", "ios", "macos", "swiftui", "xcode", "concurrency"]
+    }
+  ]
+}

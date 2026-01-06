@@ -54,7 +54,11 @@ First, add the plugin marketplace:
 claude plugin marketplace add hmohamed01/claude-code-plugins
 ```
 
-Then install the swift-developer plugin from the marketplace.
+Then install the plugin:
+
+```bash
+claude plugin install swift-developer@hmohamed-plugins
+```
 
 ## Usage
 
