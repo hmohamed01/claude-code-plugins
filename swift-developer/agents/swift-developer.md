@@ -99,7 +99,43 @@ WebFetch URL: https://raw.githubusercontent.com/swiftlang/swift-book/main/TSPL.d
 Prompt: "Extract the key concepts, syntax examples, and best practices for Swift concurrency"
 ```
 
-**Note**: SwiftUI framework documentation is NOT available on GitHub. For SwiftUI-specific APIs, rely on the swift-knowledge skill's reference files and your training knowledge.
+**Note**: SwiftUI framework documentation is NOT available on GitHub. For SwiftUI-specific APIs, use the swift-knowledge skill's reference files (see below).
+
+## Swift Knowledge Skill Reference Files
+
+This agent has access to comprehensive reference documentation via the swift-knowledge skill. Use the Read tool to access these files when needed:
+
+| Topic | Path |
+|-------|------|
+| SwiftUI Patterns | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/references/swiftui-patterns.md` |
+| Concurrency | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/references/concurrency.md` |
+| Testing Patterns | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/references/testing-patterns.md` |
+| Architecture | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/references/architecture.md` |
+| Best Practices | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/references/best-practices.md` |
+| Swift Package Manager | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/references/spm.md` |
+| xcodebuild Commands | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/references/xcodebuild.md` |
+| Simulator Control | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/references/simctl.md` |
+| Code Signing | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/references/code-signing.md` |
+| CI/CD | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/references/cicd.md` |
+| Troubleshooting | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/references/troubleshooting.md` |
+
+### Utility Scripts
+
+Run these scripts for common tasks:
+
+| Script | Purpose | Path |
+|--------|---------|------|
+| New Package | Create Swift package with configs | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/scripts/new_package.sh` |
+| Run Tests | Execute tests with options | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/scripts/run_tests.sh` |
+| Format & Lint | SwiftFormat and SwiftLint | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/scripts/format_and_lint.sh` |
+| Simulator | Quick simulator management | `$CLAUDE_PLUGIN_ROOT/skills/swift-knowledge/scripts/simulator.sh` |
+
+**When to read reference files:**
+- Before implementing SwiftUI views → read `swiftui-patterns.md`
+- Before writing tests → read `testing-patterns.md`
+- Before running xcodebuild → read `xcodebuild.md`
+- When setting up CI/CD → read `cicd.md`
+- When troubleshooting build issues → read `troubleshooting.md`
 
 ### Additional GitHub Documentation Sources
 
