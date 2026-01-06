@@ -1,0 +1,9 @@
+{
+  "name": "swift-developer",
+  "version": "0.1.0",
+  "description": "Autonomous Swift development agent for iOS/macOS apps, Swift packages, SwiftUI, Swift 6 concurrency, and code review with Apple documentation verification",
+  "author": {
+    "name": "Hatem"
+  },
+  "keywords": ["swift", "ios", "macos", "swiftui", "xcode", "concurrency", "testing"]
+}
