@@ -10,17 +10,13 @@ A collection of plugins for [Claude Code](https://claude.ai/code) that extend it
 
 ## Installation
 
-Install a plugin from this repository:
+Add this plugin marketplace to Claude Code:
 
 ```bash
-claude plugins add hmohamed01/claude-code-plugins --subdir <plugin-name>
+claude plugin marketplace add hmohamed01/claude-code-plugins
 ```
 
-Example:
-
-```bash
-claude plugins add hmohamed01/claude-code-plugins --subdir swift-developer
-```
+Then browse and install plugins from the marketplace.
 
 ## Structure
 

@@ -48,18 +48,13 @@ Includes reference documentation for:
 
 ## Installation
 
-Add to your Claude Code plugins:
+First, add the plugin marketplace:
 
 ```bash
-claude plugins add hmohamed01/claude-code-plugins --subdir swift-developer
+claude plugin marketplace add hmohamed01/claude-code-plugins
 ```
 
-Or clone and install locally:
-
-```bash
-git clone https://github.com/hmohamed01/claude-code-plugins.git
-claude plugins add ./claude-code-plugins/swift-developer
-```
+Then install the swift-developer plugin from the marketplace.
 
 ## Usage
 
