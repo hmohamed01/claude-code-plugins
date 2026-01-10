@@ -4,7 +4,7 @@
     "name": "hmohamed01"
   },
   "metadata": {
-    "description": "A collection of Claude Code plugins for Swift development and more"
+    "description": "A collection of Claude Code plugins for Swift and Rust development"
   },
   "plugins": [
     {
@@ -13,6 +13,13 @@
       "description": "Autonomous Swift development agent for iOS/macOS apps, Swift packages, SwiftUI, and Swift 6 concurrency",
       "version": "0.2.0",
       "keywords": ["swift", "ios", "macos", "swiftui", "xcode", "concurrency"]
+    },
+    {
+      "name": "rust-developer",
+      "source": "./rust-developer",
+      "description": "Comprehensive Rust development assistance for building, testing, and deploying Rust applications with cargo, clippy, async patterns, and framework support",
+      "version": "0.1.0",
+      "keywords": ["rust", "cargo", "clippy", "async", "tokio", "axum", "wasm", "testing"]
     }
   ]
 }

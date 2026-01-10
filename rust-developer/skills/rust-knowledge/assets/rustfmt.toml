@@ -1,0 +1,25 @@
+# Rustfmt configuration
+# See: https://rust-lang.github.io/rustfmt/
+
+edition = "2021"
+max_width = 100
+tab_spaces = 4
+
+# Imports
+imports_granularity = "Module"
+group_imports = "StdExternalCrate"
+reorder_imports = true
+
+# Formatting
+use_small_heuristics = "Default"
+newline_style = "Auto"
+use_field_init_shorthand = true
+use_try_shorthand = true
+
+# Comments
+wrap_comments = false
+normalize_comments = false
+normalize_doc_attributes = false
+
+# Control flow
+match_block_trailing_comma = true
