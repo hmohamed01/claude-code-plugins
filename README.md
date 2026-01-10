@@ -7,6 +7,7 @@ A collection of plugins for [Claude Code](https://claude.ai/code) that extend it
 | Plugin | Description |
 |--------|-------------|
 | [swift-developer](./swift-developer) | Autonomous Swift development agent for iOS/macOS apps, Swift packages, SwiftUI, and Swift 6 concurrency |
+| [rust-developer](./rust-developer) | Comprehensive Rust development with cargo, clippy, async patterns, WebAssembly, and framework support |
 
 ## Installation
 
