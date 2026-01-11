@@ -6,7 +6,6 @@ description: >
   (3) Error handling with Result and Option, (4) Async Rust with Tokio and async/await,
   (5) Testing with cargo test and test patterns, (6) Clippy linting and rustfmt formatting,
   (7) WebAssembly with wasm-pack, (8) Web frameworks like Axum, Actix, and Rocket.
-version: 1.0.0
 ---
 
 # Rust Development Knowledge

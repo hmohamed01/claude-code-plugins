@@ -6,7 +6,6 @@ description: >
   (3) SwiftUI views and patterns, (4) Swift 6 concurrency (async/await, actors, Sendable),
   (5) XCTest and Swift Testing frameworks, (6) iOS simulator management with simctl,
   (7) Code signing and app distribution, (8) SwiftFormat and SwiftLint configuration.
-version: 1.0.0
 ---
 
 # Swift Development Knowledge
