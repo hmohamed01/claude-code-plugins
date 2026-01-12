@@ -8,13 +8,16 @@ A Claude Code plugin for comprehensive Rust development assistance.
 
 ## Quick Start
 
-Invoke the agent directly with a slash command:
+Invoke the agent with the slash command:
 
 ```
-/rust-developer create a new async HTTP client library
-/rust-developer review my code for ownership issues
-/rust-developer run clippy and fix the warnings
+/rust-developer:rust-developer
 ```
+
+Then describe what you need help with. For example:
+- "Create a new async HTTP client library"
+- "Review my code for ownership issues"
+- "Run clippy and fix the warnings"
 
 ## Features
 
@@ -50,7 +53,7 @@ claude plugins add ./rust-developer
 
 | Component | Name | Purpose |
 |-----------|------|---------|
-| Command | `/rust-developer` | Invoke the agent via slash command |
+| Command | `/rust-developer:rust-developer` | Invoke the agent via slash command |
 | Agent | rust-developer | Autonomous Rust development tasks |
 | Skill | rust-knowledge | Rust development knowledge and patterns |
 | Hooks | PreToolUse | Detect unsafe patterns in Rust code |
@@ -62,16 +65,14 @@ claude plugins add ./rust-developer
 The fastest way to invoke the agent:
 
 ```
-/rust-developer <your task>
+/rust-developer:rust-developer
 ```
 
-Examples:
-```
-/rust-developer help me create a new async HTTP client library
-/rust-developer review my Rust code for ownership issues
-/rust-developer run clippy and fix the warnings
-/rust-developer implement error handling with thiserror
-```
+Then describe your task in the next message. Examples:
+- "Help me create a new async HTTP client library"
+- "Review my Rust code for ownership issues"
+- "Run clippy and fix the warnings"
+- "Implement error handling with thiserror"
 
 ### Natural Language
 

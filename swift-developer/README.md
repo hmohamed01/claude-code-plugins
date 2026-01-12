@@ -9,13 +9,16 @@ An autonomous Swift development agent for Claude Code that assists with iOS/macO
 
 ## Quick Start
 
-Invoke the agent directly with a slash command:
+Invoke the agent with the slash command:
 
 ```
-/swift-developer create a SwiftUI settings screen with @Observable
-/swift-developer review my code for concurrency issues
-/swift-developer run tests on iPhone 15 simulator
+/swift-developer:swift-developer
 ```
+
+Then describe what you need help with. For example:
+- "Create a SwiftUI settings screen with @Observable"
+- "Review my code for concurrency issues"
+- "Run tests on iPhone 15 simulator"
 
 ## Features
 
@@ -78,16 +81,14 @@ Then use `/plugins` to install swift-developer from the marketplace.
 The fastest way to invoke the agent:
 
 ```
-/swift-developer <your task>
+/swift-developer:swift-developer
 ```
 
-Examples:
-```
-/swift-developer help me create a new Swift package for my networking layer
-/swift-developer I need to build a settings screen with SwiftUI using @Observable
-/swift-developer review my Swift code for concurrency issues
-/swift-developer run the tests for my iOS app on iPhone 15 simulator
-```
+Then describe your task in the next message. Examples:
+- "Help me create a new Swift package for my networking layer"
+- "I need to build a settings screen with SwiftUI using @Observable"
+- "Review my Swift code for concurrency issues"
+- "Run the tests for my iOS app on iPhone 15 simulator"
 
 ### Natural Language
 
@@ -106,7 +107,7 @@ The agent also triggers on explicit Swift-related requests in conversation.
 
 | Component | Name | Purpose |
 |-----------|------|---------|
-| Command | `/swift-developer` | Invoke the agent via slash command |
+| Command | `/swift-developer:swift-developer` | Invoke the agent via slash command |
 | Agent | swift-developer | Autonomous Swift development tasks |
 | Skill | swift-knowledge | Swift development knowledge and patterns |
 | Hooks | PreToolUse | Detect unsafe patterns in Swift code |
