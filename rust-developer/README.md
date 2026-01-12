@@ -8,16 +8,13 @@ A Claude Code plugin for comprehensive Rust development assistance.
 
 ## Quick Start
 
-Invoke the agent with the slash command:
+Invoke the agent with a task on the same line:
 
 ```
-/rust-developer:rust-developer
+/rust-developer:rust-developer create a new async HTTP client library
+/rust-developer:rust-developer review my code for ownership issues
+/rust-developer:rust-developer run clippy and fix the warnings
 ```
-
-Then describe what you need help with. For example:
-- "Create a new async HTTP client library"
-- "Review my code for ownership issues"
-- "Run clippy and fix the warnings"
 
 ## Features
 
@@ -65,14 +62,16 @@ claude plugins add ./rust-developer
 The fastest way to invoke the agent:
 
 ```
-/rust-developer:rust-developer
+/rust-developer:rust-developer <your task>
 ```
 
-Then describe your task in the next message. Examples:
-- "Help me create a new async HTTP client library"
-- "Review my Rust code for ownership issues"
-- "Run clippy and fix the warnings"
-- "Implement error handling with thiserror"
+Examples:
+```
+/rust-developer:rust-developer help me create a new async HTTP client library
+/rust-developer:rust-developer review my Rust code for ownership issues
+/rust-developer:rust-developer run clippy and fix the warnings
+/rust-developer:rust-developer implement error handling with thiserror
+```
 
 ### Natural Language
 

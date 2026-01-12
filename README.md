@@ -19,11 +19,9 @@ A collection of plugins for [Claude Code](https://claude.ai/code) that extend it
 After installing from the marketplace, invoke any plugin agent directly:
 
 ```
-/swift-developer:swift-developer
-/rust-developer:rust-developer
+/swift-developer:swift-developer create a SwiftUI settings screen with @Observable
+/rust-developer:rust-developer implement error handling with thiserror
 ```
-
-Then describe what you need help with in your next message.
 
 ## Installation
 
