@@ -4,10 +4,19 @@ A collection of plugins for [Claude Code](https://claude.ai/code) that extend it
 
 ## Plugins
 
-| Plugin | Description |
-|--------|-------------|
-| [swift-developer](./swift-developer) | Autonomous Swift development agent for iOS/macOS apps, Swift packages, SwiftUI, and Swift 6 concurrency |
-| [rust-developer](./rust-developer) | Comprehensive Rust development with cargo, clippy, async patterns, WebAssembly, and framework support |
+| Plugin | Command | Description |
+|--------|---------|-------------|
+| [swift-developer](./swift-developer) | `/swift-developer` | Autonomous Swift development agent for iOS/macOS apps, Swift packages, SwiftUI, and Swift 6 concurrency |
+| [rust-developer](./rust-developer) | `/rust-developer` | Comprehensive Rust development with cargo, clippy, async patterns, WebAssembly, and framework support |
+
+## Quick Start
+
+After installing from the marketplace, invoke any plugin agent directly:
+
+```
+/swift-developer create a SwiftUI settings screen with @Observable
+/rust-developer help me implement error handling with thiserror
+```
 
 ## Installation
 

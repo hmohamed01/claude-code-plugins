@@ -1,6 +1,6 @@
 {
   "name": "rust-developer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Comprehensive Rust development assistance for building, testing, and deploying Rust applications with cargo, clippy, async patterns, and framework support",
   "author": {
     "name": "hmohamed01"

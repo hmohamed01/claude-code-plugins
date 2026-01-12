@@ -10,15 +10,15 @@
     {
       "name": "swift-developer",
       "source": "./swift-developer",
-      "description": "Autonomous Swift development agent for iOS/macOS apps, Swift packages, SwiftUI, and Swift 6 concurrency",
-      "version": "0.2.0",
+      "description": "Autonomous Swift development agent for iOS/macOS apps, Swift packages, SwiftUI, and Swift 6 concurrency. Invoke with /swift-developer",
+      "version": "0.3.0",
       "keywords": ["swift", "ios", "macos", "swiftui", "xcode", "concurrency"]
     },
     {
       "name": "rust-developer",
       "source": "./rust-developer",
-      "description": "Comprehensive Rust development assistance for building, testing, and deploying Rust applications with cargo, clippy, async patterns, and framework support",
-      "version": "0.1.0",
+      "description": "Comprehensive Rust development assistance for building, testing, and deploying Rust applications with cargo, clippy, async patterns, and framework support. Invoke with /rust-developer",
+      "version": "0.2.0",
       "keywords": ["rust", "cargo", "clippy", "async", "tokio", "axum", "wasm", "testing"]
     }
   ]

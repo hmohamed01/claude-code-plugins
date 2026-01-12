@@ -2,6 +2,16 @@
 
 A Claude Code plugin for comprehensive Rust development assistance.
 
+## Quick Start
+
+Invoke the agent directly with a slash command:
+
+```
+/rust-developer create a new async HTTP client library
+/rust-developer review my code for ownership issues
+/rust-developer run clippy and fix the warnings
+```
+
 ## Features
 
 - **Build & Test**: Build and test Rust projects with cargo
@@ -36,11 +46,32 @@ claude plugins add ./rust-developer
 
 | Component | Name | Purpose |
 |-----------|------|---------|
-| Skill | rust-knowledge | Rust development knowledge and patterns |
+| Command | `/rust-developer` | Invoke the agent via slash command |
 | Agent | rust-developer | Autonomous Rust development tasks |
+| Skill | rust-knowledge | Rust development knowledge and patterns |
 | Hooks | PreToolUse | Detect unsafe patterns in Rust code |
 
 ## Usage
+
+### Slash Command (Recommended)
+
+The fastest way to invoke the agent:
+
+```
+/rust-developer <your task>
+```
+
+Examples:
+```
+/rust-developer help me create a new async HTTP client library
+/rust-developer review my Rust code for ownership issues
+/rust-developer run clippy and fix the warnings
+/rust-developer implement error handling with thiserror
+```
+
+### Natural Language
+
+The agent also triggers on explicit Rust-related requests in conversation.
 
 ### Skill Activation
 
@@ -49,22 +80,6 @@ The `rust-knowledge` skill activates automatically when:
 - Asking about ownership, borrowing, or lifetimes
 - Discussing async Rust, Tokio, or concurrency
 - Working with cargo commands
-
-### Agent Usage
-
-The `rust-developer` agent handles complex Rust tasks:
-
-```
-Help me create a new async HTTP client library
-```
-
-```
-Review my Rust code for ownership issues
-```
-
-```
-Run clippy and fix the warnings
-```
 
 ### Hooks
 
@@ -105,6 +120,8 @@ The skill includes detailed reference files:
 rust-developer/
 ├── .claude-plugin/
 │   └── plugin.json
+├── commands/
+│   └── rust-developer.md
 ├── agents/
 │   └── rust-developer.md
 ├── skills/

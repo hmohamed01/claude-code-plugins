@@ -2,6 +2,16 @@
 
 An autonomous Swift development agent for Claude Code that assists with iOS/macOS application development, Swift packages, SwiftUI, and Swift 6 concurrency patterns.
 
+## Quick Start
+
+Invoke the agent directly with a slash command:
+
+```
+/swift-developer create a SwiftUI settings screen with @Observable
+/swift-developer review my code for concurrency issues
+/swift-developer run tests on iPhone 15 simulator
+```
+
 ## Features
 
 ### Apple Documentation Verification
@@ -58,14 +68,25 @@ Then use `/plugins` to install swift-developer from the marketplace.
 
 ## Usage
 
-The agent triggers on explicit request. Examples:
+### Slash Command (Recommended)
+
+The fastest way to invoke the agent:
 
 ```
-"Help me create a new Swift package for my networking layer"
-"I need to build a settings screen with SwiftUI using @Observable"
-"Review my Swift code for concurrency issues"
-"Run the tests for my iOS app on iPhone 15 simulator"
+/swift-developer <your task>
 ```
+
+Examples:
+```
+/swift-developer help me create a new Swift package for my networking layer
+/swift-developer I need to build a settings screen with SwiftUI using @Observable
+/swift-developer review my Swift code for concurrency issues
+/swift-developer run the tests for my iOS app on iPhone 15 simulator
+```
+
+### Natural Language
+
+The agent also triggers on explicit Swift-related requests in conversation.
 
 ### Agent Capabilities
 
@@ -75,6 +96,15 @@ The agent triggers on explicit request. Examples:
 - **Building & Testing**: Execute xcodebuild commands
 - **Code Review**: Analyze for issues and anti-patterns
 - **Simulator Management**: Boot, install, and launch apps
+
+## Components
+
+| Component | Name | Purpose |
+|-----------|------|---------|
+| Command | `/swift-developer` | Invoke the agent via slash command |
+| Agent | swift-developer | Autonomous Swift development tasks |
+| Skill | swift-knowledge | Swift development knowledge and patterns |
+| Hooks | PreToolUse | Detect unsafe patterns in Swift code |
 
 ## Requirements
 
