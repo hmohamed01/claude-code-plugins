@@ -1,5 +1,10 @@
 # Claude Code Plugins
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Plugins](https://img.shields.io/badge/plugins-2-orange.svg)](#plugins)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-blueviolet.svg)](https://claude.ai/code)
+[![GitHub stars](https://img.shields.io/github/stars/hmohamed01/claude-code-plugins?style=social)](https://github.com/hmohamed01/claude-code-plugins)
+
 A collection of plugins for [Claude Code](https://claude.ai/code) that extend its capabilities with specialized agents, skills, and hooks.
 
 ## Plugins
