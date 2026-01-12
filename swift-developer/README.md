@@ -1,5 +1,10 @@
 # swift-developer
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg)](https://developer.apple.com/macos/)
+[![Swift](https://img.shields.io/badge/Swift-5.9%2B-orange.svg)](https://swift.org/)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-blueviolet.svg)](https://claude.ai/code)
+
 An autonomous Swift development agent for Claude Code that assists with iOS/macOS application development, Swift packages, SwiftUI, and Swift 6 concurrency patterns.
 
 ## Quick Start
