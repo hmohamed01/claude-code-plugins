@@ -7,6 +7,8 @@
 
 A collection of plugins for [Claude Code](https://claude.ai/code) that extend its capabilities with specialized agents, skills, and hooks.
 
+![Demo](demo.png)
+
 ## Plugins
 
 | Plugin | Command | Description |
