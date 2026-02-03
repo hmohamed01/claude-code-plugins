@@ -2,6 +2,12 @@
 
 This file provides guidance to Claude Code when working with this repository.
 
+## Session Start
+
+At the start of each session, read:
+- `CLAUDE.md` (this file) - Repository-wide guidance
+- `CHANGELOG.md` - Recent changes and version history
+
 ## Repository Purpose
 
 This is a monorepo for **Claude Code plugins**. Each plugin is an independent project with its own folder and CLAUDE.md at the root level.
@@ -11,14 +17,20 @@ This is a monorepo for **Claude Code plugins**. Each plugin is an independent pr
 ```
 claude-code-plugins/
 ├── CLAUDE.md              # This file - repo-wide guidance
+├── CHANGELOG.md           # Version history and recent changes
+├── README.md              # Repository overview and plugin list
+├── .claude-plugin/
+│   └── marketplace.json   # Plugin marketplace manifest
 ├── <plugin-name>/         # Each plugin is an independent project
 │   ├── CLAUDE.md          # Plugin-specific instructions
-│   ├── plugin.json        # Plugin manifest (required)
+│   ├── .claude-plugin/
+│   │   └── plugin.json    # Plugin manifest (required)
 │   ├── skills/            # Skill definitions
 │   ├── agents/            # Agent configurations
-│   └── ...                # Plugin-specific files
+│   ├── commands/          # Slash commands
+│   ├── hooks/             # Event-driven automation
+│   └── README.md          # Plugin documentation
 └── <another-plugin>/
-    ├── CLAUDE.md
     └── ...
 ```
 
@@ -32,5 +44,6 @@ claude-code-plugins/
 ## Commands
 
 Common operations for plugin development:
-- Install a plugin locally: `claude plugins add ./plugin-name`
-- Test a plugin: Work within the plugin directory
+- Add marketplace: `claude plugin marketplace add hmohamed01/claude-code-plugins`
+- Install a plugin: Use `/plugins` to browse and install from marketplace
+- Test locally: `claude --plugin-dir ./plugin-name`
