@@ -4,7 +4,7 @@
     "name": "hmohamed01"
   },
   "metadata": {
-    "description": "A collection of Claude Code plugins for Swift and Rust development"
+    "description": "A collection of Claude Code plugins for Swift, Rust, and PowerShell development"
   },
   "plugins": [
     {
@@ -20,6 +20,13 @@
       "description": "Comprehensive Rust development assistance for building, testing, and deploying Rust applications with cargo, clippy, async patterns, and framework support. Invoke with /rust-developer",
       "version": "0.2.0",
       "keywords": ["rust", "cargo", "clippy", "async", "tokio", "axum", "wasm", "testing"]
+    },
+    {
+      "name": "powershell-developer",
+      "source": "./powershell-developer",
+      "description": "Autonomous PowerShell development agent for scripts, modules, Windows Forms/WPF GUIs, and automation with Gallery verification. Invoke with /powershell-developer",
+      "version": "0.1.0",
+      "keywords": ["powershell", "windows", "automation", "modules", "gui", "winforms", "wpf", "scripting"]
     }
   ]
 }

@@ -30,15 +30,13 @@ Invoke the agent with a task on the same line:
 
 ## Installation
 
-```bash
-claude plugins add hatem/claude-code-plugins/rust-developer
-```
-
-Or for local development:
+Add the plugin marketplace to Claude Code:
 
 ```bash
-claude plugins add ./rust-developer
+claude plugin marketplace add hmohamed01/claude-code-plugins
 ```
+
+Then use `/plugins` to install rust-developer from the marketplace.
 
 ## Prerequisites
 
