@@ -1,7 +1,9 @@
 # powershell-developer
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blue)](https://github.com/anthropics/claude-code)
+[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://docs.microsoft.com/en-us/powershell/)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue.svg)](https://github.com/PowerShell/PowerShell)
+[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet)](https://github.com/anthropics/claude-code)
 
 Autonomous PowerShell development agent for Claude Code. Provides expert assistance with PowerShell scripts, modules, Windows Forms/WPF GUIs, and automation tasks.
 
