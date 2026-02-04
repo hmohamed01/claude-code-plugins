@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026-02-03] - SQL Developer Plugin
+
+### Added
+- **sql-developer** plugin (v0.1.0)
+  - Autonomous agent for SQL Server and T-SQL development
+  - sql-knowledge skill with patterns, performance, security, data-types, and transactions references
+  - Live syntax verification against Microsoft GitHub docs (MicrosoftDocs/sql-docs)
+  - PostToolUse hooks for unsafe SQL pattern detection (injection, NOLOCK, cursors, non-SARGable)
+  - Slash command `/sql-developer:sql-developer`
+
+### Changed
+- Updated marketplace.json to include sql-developer
+- Updated root README.md with sql-developer in plugins table
+
 ## [2026-02-03] - Plugin Revisions
 
 ### Changed
@@ -85,3 +99,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 | swift-developer | 0.3.1 | 2026-01-05 |
 | rust-developer | 0.2.1 | 2026-01-10 |
 | powershell-developer | 0.1.1 | 2026-02-03 |
+| sql-developer | 0.1.0 | 2026-02-03 |

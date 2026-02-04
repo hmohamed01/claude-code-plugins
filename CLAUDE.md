@@ -40,6 +40,7 @@ claude-code-plugins/
 - **Plugin-specific CLAUDE.md**: Each plugin has its own CLAUDE.md for project-specific guidance
 - **Folder naming**: Use kebab-case for plugin folder names (e.g., `my-plugin`)
 - **Independence**: Plugins should be self-contained and not depend on other plugins in this repo
+- **Changelog updates**: When adding or modifying plugins, update `CHANGELOG.md` with the changes under a new dated section
 
 ## Commands
 
