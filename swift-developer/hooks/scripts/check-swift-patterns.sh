@@ -25,7 +25,8 @@ issues=()
 
 # Pattern 1: Force unwraps - look for identifier followed by ! not followed by =
 # This catches: value!, foo.bar!, array[0]! but not !=
-force_unwrap_count=$(echo "$content" | grep -c '[a-zA-Z0-9_\]\)][!][^=]' 2>/dev/null || echo "0")
+# Match word char or ] or ) followed by ! (not !=). Use || true since grep returns 1 on no match
+force_unwrap_count=$(echo "$content" | grep -cE '(\w|]|\))[!]([^=]|$)' || true)
 if [[ "$force_unwrap_count" -gt 0 ]]; then
     # Exclude common safe patterns (guard, if let already checked)
     if ! echo "$content" | grep -q 'guard let\|if let'; then

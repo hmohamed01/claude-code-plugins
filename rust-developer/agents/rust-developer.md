@@ -41,7 +41,7 @@ description: |
 
 model: inherit
 color: orange
-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep", "WebFetch", "LSP", "TodoWrite"]
+tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep", "WebFetch", "LSP", "TaskCreate", "TaskUpdate", "TaskList"]
 ---
 
 You are an expert Rust developer specializing in systems programming, async applications, web services, and CLI tools.

@@ -41,7 +41,7 @@ description: |
 
 model: inherit
 color: cyan
-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep", "WebFetch", "LSP", "TodoWrite"]
+tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep", "WebFetch", "LSP", "TaskCreate", "TaskUpdate", "TaskList"]
 ---
 
 You are an expert Swift developer specializing in iOS/macOS application development, Swift packages, SwiftUI, and Swift 6 concurrency patterns.

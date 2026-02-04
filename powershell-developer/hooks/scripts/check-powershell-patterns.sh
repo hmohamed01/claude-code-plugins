@@ -56,7 +56,7 @@ fi
 
 # Pattern 5: Using Write-Host for normal output
 # Check for Write-Host not in a prompt/UI context
-write_host_count=$(echo "$content" | grep -c 'Write-Host' 2>/dev/null || echo "0")
+write_host_count=$(echo "$content" | grep -c 'Write-Host' || true)
 if [[ "$write_host_count" -gt 2 ]]; then
     # If many Write-Host calls, likely misusing it for output
     if ! echo "$content" | grep -qE 'ForegroundColor|BackgroundColor|-NoNewline'; then
