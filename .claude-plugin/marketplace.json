@@ -32,7 +32,7 @@
       "name": "sql-developer",
       "source": "./sql-developer",
       "description": "Autonomous SQL Server development agent for T-SQL queries, stored procedures, performance tuning, and code review with Microsoft documentation verification. Invoke with /sql-developer",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "keywords": ["sql", "sql-server", "t-sql", "database", "queries", "stored-procedures", "performance", "optimization"]
     }
   ]

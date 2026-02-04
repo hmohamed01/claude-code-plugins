@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026-02-03] - SQL Developer Fix
+
+### Fixed
+- **sql-developer** v0.1.1 - Fixed hooks.json schema (was array, should be object with event names)
+
 ## [2026-02-03] - SQL Developer Plugin
 
 ### Added
@@ -99,4 +104,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 | swift-developer | 0.3.1 | 2026-01-05 |
 | rust-developer | 0.2.1 | 2026-01-10 |
 | powershell-developer | 0.1.1 | 2026-02-03 |
-| sql-developer | 0.1.0 | 2026-02-03 |
+| sql-developer | 0.1.1 | 2026-02-03 |
