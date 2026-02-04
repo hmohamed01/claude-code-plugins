@@ -1,8 +1,9 @@
 # SQL Developer Plugin
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-0.1.0-green.svg)](.claude-plugin/plugin.json)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://claude.ai/code)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-2016%2B-CC2927.svg?logo=microsoftsqlserver)](https://www.microsoft.com/sql-server)
+[![T-SQL](https://img.shields.io/badge/T--SQL-Language-blue.svg)](https://learn.microsoft.com/en-us/sql/t-sql/language-reference)
+[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet)](https://github.com/anthropics/claude-code)
 
 Autonomous SQL Server development agent for Claude Code. Write T-SQL queries, create stored procedures, optimize performance, and review code with live Microsoft documentation verification.
 
