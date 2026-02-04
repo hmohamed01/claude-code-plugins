@@ -1,6 +1,6 @@
 {
   "name": "swift-developer",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Autonomous Swift development agent for iOS/macOS apps, Swift packages, SwiftUI, Swift 6 concurrency, and code review with Apple documentation verification",
   "author": {
     "name": "hmohamed01"

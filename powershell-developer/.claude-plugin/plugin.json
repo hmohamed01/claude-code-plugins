@@ -1,6 +1,6 @@
 {
   "name": "powershell-developer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Autonomous PowerShell development agent for scripts, modules, GUIs, and Windows automation with Microsoft best practices verification",
   "author": {
     "name": "hmohamed01"

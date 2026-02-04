@@ -11,21 +11,21 @@
       "name": "swift-developer",
       "source": "./swift-developer",
       "description": "Autonomous Swift development agent for iOS/macOS apps, Swift packages, SwiftUI, and Swift 6 concurrency. Invoke with /swift-developer",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "keywords": ["swift", "ios", "macos", "swiftui", "xcode", "concurrency"]
     },
     {
       "name": "rust-developer",
       "source": "./rust-developer",
       "description": "Comprehensive Rust development assistance for building, testing, and deploying Rust applications with cargo, clippy, async patterns, and framework support. Invoke with /rust-developer",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "keywords": ["rust", "cargo", "clippy", "async", "tokio", "axum", "wasm", "testing"]
     },
     {
       "name": "powershell-developer",
       "source": "./powershell-developer",
       "description": "Autonomous PowerShell development agent for scripts, modules, Windows Forms/WPF GUIs, and automation with Gallery verification. Invoke with /powershell-developer",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "keywords": ["powershell", "windows", "automation", "modules", "gui", "winforms", "wpf", "scripting"]
     }
   ]
