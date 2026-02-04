@@ -4,7 +4,7 @@
     "name": "hmohamed01"
   },
   "metadata": {
-    "description": "A collection of Claude Code plugins for Swift, Rust, and PowerShell development"
+    "description": "A collection of Claude Code plugins for Swift, Rust, PowerShell, and SQL Server development"
   },
   "plugins": [
     {
@@ -27,6 +27,13 @@
       "description": "Autonomous PowerShell development agent for scripts, modules, Windows Forms/WPF GUIs, and automation with Gallery verification. Invoke with /powershell-developer",
       "version": "0.1.1",
       "keywords": ["powershell", "windows", "automation", "modules", "gui", "winforms", "wpf", "scripting"]
+    },
+    {
+      "name": "sql-developer",
+      "source": "./sql-developer",
+      "description": "Autonomous SQL Server development agent for T-SQL queries, stored procedures, performance tuning, and code review with Microsoft documentation verification. Invoke with /sql-developer",
+      "version": "0.1.0",
+      "keywords": ["sql", "sql-server", "t-sql", "database", "queries", "stored-procedures", "performance", "optimization"]
     }
   ]
 }

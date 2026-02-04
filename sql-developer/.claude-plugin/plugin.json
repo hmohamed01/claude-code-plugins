@@ -1,0 +1,9 @@
+{
+  "name": "sql-developer",
+  "version": "0.1.0",
+  "description": "Autonomous SQL Server development agent for T-SQL queries, stored procedures, performance tuning, and code review with Microsoft documentation verification",
+  "author": {
+    "name": "hmohamed01"
+  },
+  "keywords": ["sql", "sql-server", "t-sql", "database", "queries", "stored-procedures", "performance", "optimization"]
+}

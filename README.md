@@ -1,7 +1,7 @@
 # Claude Code Plugins
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Plugins](https://img.shields.io/badge/plugins-3-orange.svg)](#plugins)
+[![Plugins](https://img.shields.io/badge/plugins-4-orange.svg)](#plugins)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-blueviolet.svg)](https://claude.ai/code)
 [![GitHub stars](https://img.shields.io/github/stars/hmohamed01/claude-code-plugins?style=social)](https://github.com/hmohamed01/claude-code-plugins)
 
@@ -16,6 +16,7 @@ A collection of plugins for [Claude Code](https://claude.ai/code) that extend it
 | [swift-developer](./swift-developer) | `/swift-developer:swift-developer` | Autonomous Swift development agent for iOS/macOS apps, Swift packages, SwiftUI, and Swift 6 concurrency |
 | [rust-developer](./rust-developer) | `/rust-developer:rust-developer` | Comprehensive Rust development with cargo, clippy, async patterns, WebAssembly, and framework support |
 | [powershell-developer](./powershell-developer) | `/powershell-developer:powershell-developer` | PowerShell scripts, modules, Windows Forms/WPF GUIs, and automation with Gallery verification |
+| [sql-developer](./sql-developer) | `/sql-developer:sql-developer` | T-SQL queries, stored procedures, performance tuning, and code review with Microsoft docs verification |
 
 ## Quick Start
 
@@ -25,6 +26,7 @@ After installing from the marketplace, invoke any plugin agent directly:
 /swift-developer:swift-developer create a SwiftUI settings screen with @Observable
 /rust-developer:rust-developer implement error handling with thiserror
 /powershell-developer:powershell-developer create a file browser GUI with Windows Forms
+/sql-developer:sql-developer write a query to find duplicate customers by email
 ```
 
 ## Installation
