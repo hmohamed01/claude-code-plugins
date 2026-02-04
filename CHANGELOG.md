@@ -19,6 +19,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - rust-developer installation instructions now use marketplace format
+- swift-developer force unwrap detection now works at end of line
+- powershell-developer hook grep syntax error causing "0\n0" output
+- Standardized rust-developer hook output format to match other plugins
+- Consistent `${CLAUDE_PLUGIN_ROOT}` usage in all hooks.json files
+- Replaced deprecated `TodoWrite` with `TaskCreate`/`TaskUpdate`/`TaskList` in all agents
 
 ## [2026-01-12]
 
